@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/scripts.js"> </script>
     <meta charset="utf-8">
-    <title>Track Suggester</title>
+    <title>Epicodus Track Suggester</title>
   </head>
   <body>
     <div class="container">
-      <h1>Track Suggester</h1>
+      <div class="jumbotron">
+        <img src = "img/epicodus.png" alt="picture of epicodus logo">
+        <h1>Track Suggester</h1>
+      </div>
       <form id="text-form">
-        <fieldset>
+        <div class="well">
           <div class="form-group">
-            <label for="input-text">Enter your name</label>
+            <label for="input-text"><h4>Enter your name:</h4></label>
             <input id="text-input" class="form-control" type="text" name="wholename">
           </div>
-        </fieldset>
+        </div
           <!--Question 1  -->
-        <fieldset>
+        <div class="well">
           <div class="form-group">
             <label for="input-text"><h2>Which of these statements best describes you?</h2></label>
             <div class="radio" id="work">
@@ -42,11 +45,12 @@
               </label>
             </div>
           </div>
+        </div>
         </fieldset>
           <!--Question 2  -->
-        <fieldset>
+        <div class="well">
           <div class="form-group">
-            <label for="input-text"><h2>what do you want to accomplish with your programming career?</h2></label>
+            <label for="input-text"><h2>What do you want to accomplish with your programming career?</h2></label>
             <div class="radio" id="work">
               <label>
                 <input type="radio" name="work" value="government">
@@ -66,9 +70,9 @@
               </label>
             </div>
           </div>
-        </fieldset>
+        </div>
         <!--question 3  -->
-        <fieldset>
+        <div class="well">
           <div class="form-group">
             <label for="input-text"><h2>Are you interested in mobile Apps?</h2></label>
             <div class="radio" id="work">
@@ -90,9 +94,9 @@
               </label>
             </div>
           </div>
-        </fieldset>
+        </div>
         <!--question 4  -->
-        <fieldset>
+        <div class="well">
           <div class="form-group">
             <label for="input-text"><h2>What type of place would you like to work?</h2></label>
             <div class="radio" id="work">
@@ -114,9 +118,9 @@
               </label>
             </div>
           </div>
-        </fieldset>
+        </div>
         <!--question 5  -->
-        <fieldset>
+        <div class="well">
           <div class="form-group">
             <label for="input-text"><h2>Do you like to solve difficult problems?</h2></label>
             <div class="radio" id="work">
@@ -138,7 +142,7 @@
               </label>
             </div>
           </div>
-        </fieldset>
+        </div>
       </form>
     </div>
   </body>
