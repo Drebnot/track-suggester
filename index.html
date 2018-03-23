@@ -10,7 +10,7 @@
     <title>Epicodus Track Suggester</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="main-container">
       <div class="jumbotron">
         <img src = "img/epicodus.png" alt="picture of epicodus logo">
         <h1>Track Suggester</h1>
@@ -21,8 +21,8 @@
             <label for="input-text"><h4>Enter your name:</h4></label>
             <input id="text-input" class="form-control" type="text" name="wholename">
           </div>
-        </div
-          <!--Question 1  -->
+        </div>
+          <!-- Question 1 -->
         <div class="well">
           <div class="form-group">
             <label for="input-text"><h2>Which of these statements best describes you?</h2></label>
@@ -46,7 +46,6 @@
             </div>
           </div>
         </div>
-        </fieldset>
           <!--Question 2  -->
         <div class="well">
           <div class="form-group">
@@ -143,7 +142,11 @@
             </div>
           </div>
         </div>
+        <button type="submit" class="button">Show my Track!</button>
       </form>
+      <div class="answer">
+        <p><span id="your-track"></span></p>
+      </div>
     </div>
   </body>
 </html>

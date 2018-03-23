@@ -25,3 +25,16 @@ h4 {
   background-color: #33C2C3;
   text-decoration: underline;
 }
+
+#main-contianer {
+  margin-bottom: 100px;
+}
+
+.button {
+  color: black;
+  margin-bottom: 100px;
+}
+
+#answer{
+  display: none;
+}
