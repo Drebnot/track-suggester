@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <link rel="stylesheet" href="css/styles.css" type="text/css">
-      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
-      <script type="text/javascript" src="js/scripts.js"> </script>
+    <script type="text/javascript" src="js/scripts.js"> </script>
     <meta charset="utf-8">
     <title>Track Suggester</title>
   </head>
   <body>
-
+    <div class="container">
+      <h1>Track Suggester</h1>
+      <form id="text-form">
+        <fieldset>
+          <div class="form-group">
+            <label for="input-text">Enter your name</label>
+            <input id="text-input" class="form-control" type="text" name="wholename">
+          </div>
+          <div class="form-group">
+            <label for="input-text">What type of place would you like to work?</label>
+            <div class="radio" id="work">
+              <label>
+                <input type="radio" name="work" value="government">
+                Large companies or government agencies
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="work" value="Games">
+                Work for a game design company
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="work" value="freelance">
+                I want to be a freelance developer
+              </label>
+            </div>
+          </div>
+      </form>
+    </div>
   </body>
 </html>
