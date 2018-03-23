@@ -15,64 +15,57 @@
         <img src = "img/epicodus.png" alt="picture of epicodus logo">
         <h1>Track Suggester</h1>
       </div>
-      <form id="text-form">
-        <div class="well">
-          <div class="form-group">
-            <label for="input-text"><h4>Enter your name:</h4></label>
-            <input id="text-input" class="form-control" type="text" name="wholename">
-          </div>
-        </div>
           <!-- Question 1 -->
+      <form id="question1-form">
         <div class="well">
-          <div class="form-group">
             <label for="input-text"><h2>Which of these statements best describes you?</h2></label>
-            <div class="radio" id="work">
+            <div class="radio" id="question1">
               <label>
-                <input type="radio" name="work" value="government">
+                <input type="radio" name="question1" value="CSS">
                 <p>I am creative and like making things look great!</p>
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="work" value="Games">
+                <input type="radio" name="question1" value="C#">
                 <p>I like funcionality: I like to make sure things work well!</p>
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="work" value="freelance">
+                <input type="radio" name="question1" value="NaP">
                 <p>I like turtles!</p>
               </label>
             </div>
-          </div>
         </div>
+      </form>
           <!--Question 2  -->
+      <form id="question2-form">
         <div class="well">
-          <div class="form-group">
             <label for="input-text"><h2>What do you want to accomplish with your programming career?</h2></label>
-            <div class="radio" id="work">
+            <div class="radio" id="question2">
               <label>
-                <input type="radio" name="work" value="government">
+                <input type="radio" name="question2" value="C#">
                 <p>I want to work with servers and databases.</p>
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="work" value="Games">
+                <input type="radio" name="question2" value="CSS">
                 <p>I want to make interesting and beautiful interfaces for users.</p>
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="work" value="freelance">
+                <input type="radio" name="question2" value="both">
                 <p>I want to make some money!</p>
               </label>
             </div>
-          </div>
         </div>
+      </form>
         <!--question 3  -->
+      <form id="question3-form">
         <div class="well">
-          <div class="form-group">
             <label for="input-text"><h2>Are you interested in mobile Apps?</h2></label>
             <div class="radio" id="work">
               <label>
@@ -92,58 +85,57 @@
                 <p>I have no interest in making apps so stop asking.</p>
               </label>
             </div>
-          </div>
         </div>
-        <!--question 4  -->
-        <div class="well">
-          <div class="form-group">
-            <label for="input-text"><h2>What type of place would you like to work?</h2></label>
-            <div class="radio" id="work">
-              <label>
-                <input type="radio" name="work" value="government">
-                <p>I like large companies or government agencies.</p>
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="work" value="Games">
-                <p>I want to Work for a game design company.</p>
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="work" value="freelance">
-                <p>I want to be a freelance developer.</p>
-              </label>
-            </div>
-          </div>
-        </div>
-        <!--question 5  -->
-        <div class="well">
-          <div class="form-group">
-            <label for="input-text"><h2>Do you like to solve difficult problems?</h2></label>
-            <div class="radio" id="work">
-              <label>
-                <input type="radio" name="work" value="government">
-                <p>Yes, creative problem solving is fun.</p>
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="work" value="Games">
-                <p>It's okay I guess, but I can still get frustrated.</p>
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="work" value="freelance">
-                <p>Problem solving is laaaame!</p>
-              </label>
-            </div>
-          </div>
-        </div>
-        <button type="submit" class="button">Show my Track!</button>
       </form>
+        <!--question 4  -->
+      <form id="question4-form">
+        <div class="well">
+          <label for="input-text"><h2>What type of place would you like to work?</h2></label>
+          <div class="radio" id="work">
+            <label>
+              <input type="radio" name="work" value="government">
+              <p>I like large companies or government agencies.</p>
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="work" value="Games">
+              <p>I want to Work for a game design company.</p>
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="work" value="freelance">
+              <p>I want to be a freelance developer.</p>
+            </label>
+          </div>
+        </div>
+      </form>
+        <!--question 5  -->
+      <form id="question5-form">
+        <div class="well">
+          <label for="input-text"><h2>Do you like to solve difficult problems?</h2></label>
+          <div class="radio" id="work">
+            <label>
+              <input type="radio" name="work" value="government">
+              <p>Yes, creative problem solving is fun.</p>
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="work" value="Games">
+              <p>It's okay I guess, but I can still get frustrated.</p>
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="work" value="freelance">
+              <p>Problem solving is laaaame!</p>
+            </label>
+          </div>
+        </div>
+      </form>
+      <button type="submit" class="button">Show my Track!</button>
       <div class="answer">
         <p><span id="your-track"></span></p>
       </div>
