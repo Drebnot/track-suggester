@@ -9,11 +9,16 @@ $(document).ready(function(){
     var question5 = $("input:radio[name=question5]:checked").val();
 
 
-    if (question1 === CSS && question2 === CSS) {
+    if (question1 === ("CSS") && question2 === ("CSS") {
       $("#tracksuggestion").text("CSS");
+    } else if question1 === ("C#") && question2 === ("C#") {
+      $("track-suggestion").text("C#");
+    } else if question1 === ("Java") && question2 === ("Java") {
+      $("track-suggestion").text("Java");
     }
 
-    $("#submit").click(function() {
+
+    $("#button").click(function() {
       $("track-suggestion").show
     });
   });
