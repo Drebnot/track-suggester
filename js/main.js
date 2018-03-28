@@ -1,4 +1,4 @@
-$(function(){
+$(document).ready(function(){
   $('form#text-form').submit(function(event){
     event.preventDefault();
     var description = $('text-input').val();
