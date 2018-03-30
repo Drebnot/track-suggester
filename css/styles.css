@@ -35,6 +35,12 @@ h4 {
   margin-bottom: 100px;
 }
 
-#track-suggestion {
+#CSS {
+  display: none;
+}
+#C# {
+  display: none;
+}
+#Java {
   display: none;
 }
