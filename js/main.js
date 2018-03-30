@@ -1,5 +1,5 @@
-$(document).ready(function() {
-  $("main-form").submit(function(event) {
+$(document).ready(function () {
+  $("form#main-form").submit(function(event) {
     event.preventDefault();
 
     var question1 = parseInt ($("input:radio[name=question1]:checked").val());
@@ -9,17 +9,14 @@ $(document).ready(function() {
     var question5 = parseInt ($("input:radio[name=question5]:checked").val());
 
 
-
+    $("#track-suggestion").show();
     if (question1 + question2 + question3 + question4 + question5 <=5) {
-      $("#css").show();
+      $("#CSS").show();
     } else if (question1 + question2 + question3 + question4 + question5 <=10) {
-      $("#C#").show();
+      $("#Csharp").show();
     } else {
-      $(#C).show();
+      $("#Java").show();
     }
 
-    $("#button").click(function() {
-      $("#track-suggestion").show
-    });
   });
 });
