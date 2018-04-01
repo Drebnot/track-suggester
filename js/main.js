@@ -9,7 +9,7 @@ $(document).ready(function () {
     var question5 = parseInt ($("input:radio[name=question5]:checked").val());
 
 
-    $("#track-suggestion").show();
+    
     if (question1 + question2 + question3 + question4 + question5 <= 5) {
       $("#CSS").show();
     } else if (question1 + question2 + question3 + question4 + question5 <=10) {
