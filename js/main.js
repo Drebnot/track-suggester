@@ -10,7 +10,7 @@ $(document).ready(function () {
 
 
     $("#track-suggestion").show();
-    if (question1 + question2 + question3 + question4 + question5 <=5) {
+    if (question1 + question2 + question3 + question4 + question5 <= 5) {
       $("#CSS").show();
     } else if (question1 + question2 + question3 + question4 + question5 <=10) {
       $("#Csharp").show();
