@@ -39,8 +39,6 @@ h4 {
   margin-bottom: 100px;
 }
 
-
-
 #CSS, #Csharp, #Java {
   display: none;
   text-align: center;
@@ -49,4 +47,9 @@ h4 {
   border: 5px solid #646d6d;
   padding: 5px;
   color: white
+}
+
+#CSS, #Csharp, #Java p {
+  text-align: center;
+  font-size: 20px;
 }
